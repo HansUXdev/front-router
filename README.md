@@ -1,6 +1,6 @@
-# Front Router
+# MEAN Router
 
-Front Router simplifies the creation of routes in AngularJS by allowing you to define them directly in your view templates.
+MEAN Router simplifies the creation of meanstack development by allowing developers to prototype schema's Quickly.
 
 State settings are defined in a [Front Matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each template.
 

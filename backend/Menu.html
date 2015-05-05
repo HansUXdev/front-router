@@ -1,0 +1,68 @@
+---
+name: MenusSchema 
+title: 
+   type: String
+   trim: true
+   require: true
+url: 
+  type: String
+  trim: true
+  require: true
+group:
+  type: String
+  trim: true
+  default: 'main'
+position:
+  type: Number
+  default: 0
+classes: 
+  type: String
+  default: ''
+target:
+  type: String
+  default: '' 
+
+---
+<!-- This should export the JSON to be used instead of
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
+
+var CommentsSchema = new Schema({
+  author: String,
+  content: {
+		type: String,
+		required: true
+  },
+  url: {
+    type: String,
+    required: true
+  },
+  date: {
+  	type: Date, 
+  	default: Date.now
+  },
+  email: {
+  	type: String
+  },
+  ip: {
+  	type: String
+  },
+  gravatar: {
+  	type: String
+  },
+  approved: {
+  	type: Boolean,
+  	default: false,
+  	required: true
+  },
+  likes: Number,
+  meta: Object
+});
+
+module.exports = mongoose.model('Comments', CommentsSchema);
+
+  -->
+
+
+<h1>Backend</h1>
+<!-- Create Login Page -->

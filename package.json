@@ -27,6 +27,7 @@
     "through2": "^0.6.3"
   },
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-jsbeautifier": "0.0.8"
   }
 }
